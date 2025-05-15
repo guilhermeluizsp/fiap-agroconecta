@@ -1,66 +1,92 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 header {
-    background: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+  background: #198754;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
 }
 
 h1 {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
 section {
-    padding: 20px;
-    background: white;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background: white;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #4CAF50;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background: #198754;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p:last-child {
+  color: white;
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 5px;
+  background-color: #198754;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 button:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
-
 .card {
-    background-color: #eafbe7;
-    color: #74e09a; 
-    opacity: 1; 
+  background-color: #eafbe7;
+  color: #74e09a;
+  opacity: 1;
 }
 
 .card:hover {
-    background-color: #d4f0d4;
-    color: #015a19; 
-    opacity: 1; 
+  background-color: #d4f0d4;
+  color: #015a19;
+  opacity: 1;
+}
+
+.banner img {
+    max-width: 1200px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.container-informacoes .item {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.container-informacoes .item img {
+  max-width: 160px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.container-informacoes .item img:hover {
+  max-width: 180px;
+  transition: 200ms linear;
+  border: 3px solid rgba(0, 0, 0, 0.096);
 }
